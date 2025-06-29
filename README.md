@@ -6,21 +6,30 @@ Este proyecto tiene como objetivo desarrollar un sistema no invasivo para monito
 
  Hardware:
  
-  - OTAQ Eagle IP 360/180 cameras (dual 180º lenses)
-  - Local server (Ubuntu)
+  - Cámara OTAQ Eagle IP 360/180 (Lentes duales de 180º)
+    
+  - Servidor Local (Ubuntu)
      
  Software:
 
   - Python 3.10
 
-  - OpenCV + NumPy (image capture, remapping)
+  - OpenCV + NumPy (captura de imagen, remapeo)
 
-  - YOLOv8 (marine species detection)
+  - YOLOv8 (detección de especies marinas)
 
-  - FFmpeg (live RTMP streaming)
+  - FFmpeg (directo en vivo RTMP)
 
- Protocols:
+ Protocolos:
 
   - RTSP (input de las cameras)
     
   - RTMP (output hacia YouTube Live)
+
+--Vídeo de Validación del Sistema--
+
+  - https://www.youtube.com/watch?v=xVEqxOUHr8E (detectando desde un contexto estático)
+  
+  - https://www.youtube.com/watch?v=fI0Ck-72kJY (detectando desde un contexto dinámico)
+    
+  - https://www.youtube.com/watch?v=gWzluXTR3KM (Vídeo externo que no es de mi propiedad utilizado como material de pruebas)
